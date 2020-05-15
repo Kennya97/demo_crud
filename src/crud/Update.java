@@ -10,7 +10,8 @@ import java.util.Scanner;
 public class Update {
     //yo borre lo que seria esta parte.. un comentario que estaba en ingles.-julissa
  Update() throws SQLException {
-    
+    //este es mi segundo cambio
+     //Scanner se utiliza para solicicitar datos con objeto leer
 Scanner  leer = new Scanner (System.in);
 student est = new student ();
 mi_conexion_CRUD batallando = new mi_conexion_CRUD ();
