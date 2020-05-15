@@ -47,7 +47,7 @@ case"2":
 break;
     
 case"3":
-//Update update  = new Update ();
+Update update  = new Update ();
 break;
 
 case"4":
