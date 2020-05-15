@@ -1,10 +1,8 @@
 
 package crud;
 
-/**
- *
- * @author W. Hernandez
- */
+//aqui habia un comentario en ingles
+//me cuarto cambio "Julissa salinas"
 public class student {
     
     //Atributos de la clase
