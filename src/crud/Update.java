@@ -1,6 +1,9 @@
 
 package crud;
 
+//Este es mi prime comentario
+//se importan las extenciones para que no muestre error al solicitardatos y leerlos
+
 import java.sql.SQLException;
 import java.util.Scanner;
 
