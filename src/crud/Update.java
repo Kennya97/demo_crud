@@ -51,7 +51,7 @@ String campos_valores_nuevos = "nom_estudiante = ' "+ est.getNombre() + "',carne
 batallando.actualizar_eliminar_registro(tabla, campos_valores_nuevos, condicion_buscar);
 System.out.println("Modificado Correctamente !!!!!!!!");
 
-
+menu_principal.desplegar_Menu();//LLAMA EL METODO DEL MENU PRINCIPAL
         
 }
 }
