@@ -1,7 +1,8 @@
 
 package crud;
 
-
+//este es mi tercer cambio
+//se exportan las extenciones
 import java.sql.SQLException;
 import java.util.Scanner;
 
