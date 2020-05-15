@@ -1,12 +1,7 @@
 
 package crud;
 
-/**
- *
- * @author castr
- */
-
-
+//borre comentarios en ingles "julissa salinas" mi tercer cambio
 import java.sql.*; //LIBRERIAS PARA LA CONEXION A LA BASE DE DATOS
 
 public class mi_conexion_CRUD {
