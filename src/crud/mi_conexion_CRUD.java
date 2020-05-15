@@ -111,7 +111,7 @@ public void desplegar_registros (String  tabla_buscar, String campos_buscar, Str
 mi_conexion_CRUD  conectar = new mi_conexion_CRUD();
 Connection cone = conectar.getConnection();
 
-//FALTA TRY
+try{
 Statement stmt;
 
 String sqlQueryStmt;
@@ -159,11 +159,19 @@ System.out.println();
 
 }else{
 System.out.println("No se han encontrado registros  ");
+}
+//Aqui AGREGUE ESTA PARTE
 
-}
-}
-}
+miResultSet.close();//CERRAR EL RESULTSET
+}finally{
+stmt.close();
+cone.close();
 }
 
+}catch(SQLException ex){
+System.out.println("Ha ocurrido el siguiente error !! : "+ex.getMessage());
+}
+}
+}
 
 
