@@ -158,7 +158,8 @@ System.out.println();
 System.out.println();
 
 }else{
-System.out.println("No se han encontrado registros  ");
+//hice este cambio-julissa
+System.out.println("El Registro no existe  ");
 }
 //Aqui AGREGUE ESTA PARTE
 

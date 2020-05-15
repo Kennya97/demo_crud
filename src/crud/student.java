@@ -18,7 +18,7 @@ public class student {
     public int getId_student() {
         return id_student;
     }
-
+    //set estudiante con el id_student(julissa)..
     public void setId_student(int id_student) {
         this.id_student = id_student;
     }

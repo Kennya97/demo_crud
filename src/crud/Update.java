@@ -4,12 +4,8 @@ package crud;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-/**
- *
- * @author W. Hernandez
- */
 public class Update {
-    
+    //yo borre lo que seria esta parte.. un comentario que estaba en ingles.-julissa
  Update() throws SQLException {
     
 Scanner  leer = new Scanner (System.in);
