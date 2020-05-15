@@ -17,7 +17,8 @@ System.out.println("<<ACTUALIZAR REGISTROS >>");
 System.out.println("Ingresa id del registro a modificar: ");
 est.setId_student(leer.nextInt());
 
-//REINGRESO DE DATOS PARA ACTUALIZAR 
+//yo borre lo que estaba aqui 
+//ingree los datos "julissa salinas"
 
 String  tabla_buscar = "tb_estudiante";
 
