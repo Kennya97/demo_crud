@@ -41,11 +41,11 @@ opcion_menu = opcion_seleccionada.next();
 switch(opcion_menu){
 
 case"1":
-//Create  create = new Create ();
+Create  create = new Create ();
 break;
     
 case"2":
-//Read read = new Read ();
+Read read = new Read ();
 break;
     
 case"3":
